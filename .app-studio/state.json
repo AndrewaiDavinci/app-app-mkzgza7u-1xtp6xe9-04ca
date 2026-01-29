@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "savedAt": "2026-01-29T13:08:12.616Z",
+  "savedAt": "2026-01-29T13:08:45.737Z",
   "appMeta": {
     "appTitle": "할 일 관리",
     "chatPrompt": "todolist 앱 만들어",
-    "createdAt": "2026-01-29T13:08:12.616Z",
-    "lastModifiedAt": "2026-01-29T13:08:12.616Z"
+    "createdAt": "2026-01-29T13:08:45.737Z",
+    "lastModifiedAt": "2026-01-29T13:08:45.737Z"
   },
   "chatHistory": [
     {
@@ -89,6 +89,18 @@
       "role": "assistant",
       "content": "App is ready! Check the Preview tab. You can apply changes by typing modifications.",
       "timestamp": "2026-01-29T13:08:11.902Z"
+    },
+    {
+      "id": "msg_1769692092618_0gu9979",
+      "role": "system",
+      "content": "앱이 갤러리에 저장되었습니다: \"todolist 앱 만들어\"",
+      "timestamp": "2026-01-29T13:08:12.618Z"
+    },
+    {
+      "id": "msg_1769692111569_5tvls14",
+      "role": "system",
+      "content": "GitHub에 자동 저장되었습니다: [AndrewaiDavinci/app-app-mkzgza7u-1xtp6xe9-04ca](https://github.com/AndrewaiDavinci/app-app-mkzgza7u-1xtp6xe9-04ca)",
+      "timestamp": "2026-01-29T13:08:31.569Z"
     }
   ],
   "planning": {
@@ -264,17 +276,6 @@
     ]
   },
   "terminalLogs": [
-    "[file] src/App.jsx ✓",
-    "✅ Phase complete: 1 files generated",
-    "\n🔍 Validating 32 files...",
-    "⚠️ Found 7 errors, attempting to fix...",
-    "[Fix] ⚠️ 무한 루프 감지: fix_loop (7회)",
-    "[Fix] 동일 에러가 7회 반복되고 있습니다 (src/App.jsx).\n에러: Hook이 조건문 안에서 호출되었습니다. Hook은 컴포넌트 최상위에서만 호출해야 합니다....\n\n권장 조치:\n1. 다른 구현 방식 시도\n2. 관련 컴포넌트 구조 재검토\n3. 의존성 패키지 버전 확인",
-    "[Fix] 다른 방식으로 컴포넌트를 재작성합니다.",
-    "[Fix] 오류 수정 시도 1/5 - 7개 오류 발견",
-    "[Fix] 오류 분류: Runtime: 7",
-    "[Fix] 휴리스틱 패턴 매칭으로 빠른 수정 시도 중...",
-    "[Fix] 런타임 에러 7개 분석 중...",
     "[Fix] AI 기반 심층 디버깅 시작...",
     "[Fix] AI 분석 중: src/App.jsx (7개 에러)",
     "[state] FIXING: 7개 오류 발견",
@@ -313,7 +314,18 @@
     "✅ Server ready at: https://ockiu31nlxm2s74r6m3c7ye9q7aqzn-kkxp--5173--31fc58ec.local-corp.webcontainer-api.io",
     "[success] Server ready: https://ockiu31nlxm2s74r6m3c7ye9q7aqzn-kkxp--5173--31fc58ec.local-corp.webcontainer-api.io",
     "[success] Server ready: https://ockiu31nlxm2s74r6m3c7ye9q7aqzn-kkxp--5173--31fc58ec.local-corp.webcontainer-api.io",
-    "[state] REVIEWING: 앱 실행 중"
+    "[state] REVIEWING: 앱 실행 중",
+    "[success] 갤러리에 저장 완료: c80390df-de9a-478c-b6d7-4aecf7f88503",
+    "[GitHub] 자동 저장 시작...",
+    "[state] 앱 상태 직렬화 완료 (채팅: 11개, Blueprint: O, Planning: O)",
+    "[GitHub] 새 레포지토리 생성 중...",
+    "✅ 앱 빌드 및 검증 완료",
+    "[state] IDLE: 대기 중",
+    "[GitHub] ✅ 커밋 완료: 0e4feef",
+    "[GitHub] 저장 완료: https://github.com/AndrewaiDavinci/app-app-mkzgza7u-1xtp6xe9-04ca",
+    "[Project] 기존 프로젝트 확인 중...",
+    "[Project] 프로젝트 생성 중...",
+    "[Project] 프로젝트 생성 완료: e119964f-b401-4e75-8b4b-42fdc9e20c33"
   ],
   "phaseProgress": {
     "currentPhaseIndex": 1,
